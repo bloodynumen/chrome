@@ -1,0 +1,11 @@
+{ 
+    "name": "赵威-cms上线自动勾选文件助手", 
+    "manifest_version" : 2,
+    "version": "1.0", 
+    "content_scripts": [ { 
+        "js": ["zhaowei.js"], 
+        "matches": ["http://baidu.com/"], 
+        "run_at": "document_end" 
+    } ] 
+}
+
