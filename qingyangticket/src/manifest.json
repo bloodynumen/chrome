@@ -1,0 +1,17 @@
+{ 
+    "name": "清扬票务系统", 
+    "manifest_version" : 2,
+    "version": "1.0", 
+    "content_scripts": [ { 
+        "js": ["jquery-1.9.1.js", "ticket.js"], 
+        "matches": ["http://music.baidu.com/*"], 
+        "run_at": "document_end" 
+    } ],
+    "browser_action": {  
+        "default_icon": "icon.png" ,
+        "default_title": "清扬票务系统",
+        "default_popup": "popup.html"
+    } 
+
+}
+
